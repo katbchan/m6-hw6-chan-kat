@@ -1,0 +1,102 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    border: 0px 
+}
+
+body{
+    background-image:url(assets/blue-snow.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #79a8ff;
+    padding: 20px; 
+    border-bottom: 3px solid navy;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30pt;
+}
+
+
+nav {
+    display: flex; 
+} 
+
+nav a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12pt;
+    margin: 5px;
+}
+
+h2 { 
+    font-size: 18pt;
+}
+
+.main-content {
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+    align-items: flex-start;
+    height: fit-content;
+}
+
+main {
+    background-color: white;
+    color: navy;
+    width: 70%;
+    padding: 10px;
+}
+
+.profile-image {
+    float: left;
+    margin: 0px 15px 7px 0px;
+}
+
+p{
+    margin: 0px 0px 20px;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+aside {
+    background-color: white;
+    color: navy;
+    width: 23%;
+    padding: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    margin: 3px;
+}
+
+aside img {
+    box-shadow: 2px 2px gray;
+}
+
+footer {
+    background-color: #79a8ff;
+    color: white;
+    padding: 10px; 
+    border-top: 3px solid navy;
+    margin-top: auto;
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
